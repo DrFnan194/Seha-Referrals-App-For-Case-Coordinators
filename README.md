@@ -11,7 +11,7 @@ Windows application with three Seha School Screening workflows: verified referra
 3. Run **SehaReferralApp.exe**, choose the workflow, and sign in normally through Seha/Nafath with your own account.
 4. Choose an authorized PHC for a single-center action, or use the bulk action and review its PHC checkboxes before starting.
 
-## Version 1.4.4
+## Version 1.4.5
 
 - Bulk approval and completed-data export can visit the selected authorized PHCs automatically.
 - PHC checkboxes, Select all, Clear all and a selected count let users exclude unwanted centers. Empty selections cannot start.
@@ -32,10 +32,10 @@ Windows application with three Seha School Screening workflows: verified referra
 
 ## Updates
 
-From version 1.1.0, the app checks public GitHub Releases for newer stable versions. Finish current work and return to the list, then choose **التحقق من التحديثات / Check for updates** and **تنزيل التحديث وإعادة التشغيل / Download and restart**. Earlier builds require one manual installation.
+Every new application run automatically checks public GitHub Releases for a newer stable version. Version 1.4.5 displays a prominent Arabic/English update notice; download and restart remain user initiated. Finish current work and return to the list, then choose **التحقق من التحديثات / Check for updates** and **تنزيل التحديث وإعادة التشغيل / Download and restart**. Earlier builds require one manual installation.
 
 The updater checks GitHub's SHA-256 digest, backs up replaced application files and preserves the separate Seha browser profile, language and workbook preference. Members do not need a GitHub account for public downloads or update checks.
 
-Each member uses their own normal Seha permissions. Data entry does not save clinical form changes automatically; the separate auditor workflow submits only the approvals explicitly started by the user. Seha remains the authoritative system. Excel links are temporarily disabled.
+Each member uses their own normal Seha permissions. Data entry does not save clinical form changes automatically; the separate auditor workflow submits only the approvals explicitly started by the user. Seha remains the authoritative system. The Excel-links button is removed from the interface.
 
 This repository hosts release downloads. The complete application source is attached to each release separately from GitHub's automatic tag archives. No patient workbooks, clinical screenshots, credentials, browser profiles or private validation checkpoints belong in releases or repository commits.
